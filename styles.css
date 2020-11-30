@@ -1,0 +1,155 @@
+html { 
+    background: url(BackgroundSwirl.svg) repeat; 
+    background-repeat: repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+.body {
+    background-color: rgb(92, 102, 56);
+    width: 1920px;
+    height: 1080px;
+}
+
+.container {
+    width: 900px;
+    font-size: medium;
+    margin: auto;
+    height: auto;
+    text-align: center;
+    color: #666D52;
+    background-color: #D0D6C1;
+    border-radius: 25px;
+   
+}
+
+.header {
+    border-radius: 25px;
+    background-color: #666D52;
+    color: #D0D6C1;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    width: 700px;
+    height: 150px;
+    margin-top: 150px;
+}
+
+.logo {
+    height: 40px;
+    width: 400px;
+    float: left;
+    font-size: 55px;
+    color: oldlace;
+    margin: auto;
+    text-decoration: underline;
+}
+
+.pizza {
+    
+    background-repeat: no-repeat;
+    float: right;
+    height: 375px;
+    border-radius: 50%;
+    margin: auto;
+    width: 375px;
+    text-align: center;
+    color:rgb(92, 102, 56) ;
+}
+
+
+.pizza img:hover{
+    visibility: hidden;
+   
+}
+.pizza:hover{
+    background-image:url(order\ here.jpg);
+    background-repeat: no-repeat;
+    height: 375px;
+     border-radius: 50%;
+     margin: auto;
+     width: 375px;
+     overflow: hidden;
+     display: block;
+}
+
+.about {
+
+    width: 800px;
+    height: auto;
+    margin: auto;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.square {
+    margin: auto;
+    height: 800px;
+    width: 800px;
+    overflow: hidden;
+    background-color: rgb(103, 117, 51);
+    text-align: center;
+    font-size: 60px;
+    font-display: block;
+}
+
+.menu {
+    overflow: hidden;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+
+.offers{
+    overflow: hidden;
+}
+
+.cocktails {
+    overflow: hidden;
+}
+
+.orders {
+    overflow: hidden;
+}
+
+.menu, .offers, .cocktails, .orders {
+    width: 50%;
+    height: 50%;
+    background-color: rgb(104, 110, 88);
+    color: wheat;
+    float: left;
+    font-size: large;
+}
+
+.footer {
+    width: 900px;
+    height: 100px;
+    background-color: rgb(35, 37, 56);
+    overflow: hidden;
+}
+
+.right {
+    width: 450px;
+    height: 75px;
+    float: right;
+}
+
+.topright {
+    float: right;
+    width: 450px;
+    height: 50%;
+    background-color: orange;
+}
+
+.bottom {
+    clear: both;
+    background-color: orangered;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-image: url(Background\ Bennis\ Zah.png);
+        background-repeat: repeat;
+    }
+}
